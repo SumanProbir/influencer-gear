@@ -75,3 +75,17 @@ header{
     width: 440px;
    
 }
+
+/* Company Brand Logo Part  */
+
+.company-logos{
+    width: 950px;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dce3ea;
+    border-bottom: 1px solid #dce3ea;
+    margin: auto;
+    
+}
