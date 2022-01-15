@@ -14,16 +14,15 @@ body{
 header{
     width: 1200px;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
     margin: auto;
 }
 .logo-part{
     padding-left: 20px;
 }
-.top-menu{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-}
+
 .menu-part a{
     font-size: 20px;
     color: #3a3a3a;
@@ -38,4 +37,41 @@ header{
     font-size: 25px;
     padding-right: 20px;
     
+}
+
+/* Start Your Journey Part  */
+
+.container{
+    margin-top: 40px;
+}
+.influencer-journey{
+    display: flex;
+    justify-content: center;
+}
+.start-photo img{
+    width: 100%;
+    display: block;
+    padding-left: 115px;
+}
+.start-text{
+    width: 582px;
+    padding-top: 35px;
+}
+.start-text p{
+    padding-bottom: 15px;
+}
+.start-text a{
+    text-decoration: none;
+    background-color: #e02c6d;
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #fff;
+}
+.heading-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+.start-photo{
+    width: 440px;
+   
 }
