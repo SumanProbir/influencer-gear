@@ -62,8 +62,7 @@ main{
 }
 .camera-background{
     background-image:url(../images/Circle\ design.svg);
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat;   
     background-position-y: 10px;
     background-size: contain;
     margin-left: 90px;
@@ -73,7 +72,6 @@ main{
 .start-photo img{
     width: 95%;
     display: block;
-    padding-left: 0px;
     padding-top: 30px;
 }
 .camera-background:hover .start-photo{
@@ -239,3 +237,52 @@ main{
 
 
 
+/*-----------
+Media Queries 
+---------- */
+
+/* Mobile Device  */
+
+@media only screen and (max-width:614px){    
+    
+    .header-part{
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .logo-part {
+       height: 60px;
+    }
+    
+    .influencer-journey {
+      flex-direction: column;
+    }
+
+    .heading-text {
+        text-align: center;
+    }
+
+    .start-text p {
+        text-align: center;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+
+    .start-text a {
+        margin-left: 210px;
+    }
+
+    .camera-background{
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+
+
+
+
+
+    .company-logos, .popular-part, .footer-start, .arrow-icon{
+        display: none;
+    }
+}
