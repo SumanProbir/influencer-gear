@@ -76,6 +76,10 @@ main{
     padding-left: 0px;
     padding-top: 30px;
 }
+.camera-background:hover .start-photo{
+    transform: scale(1.5) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
 .start-text{
     width: 582px;
     padding-top: 35px;
@@ -231,3 +235,7 @@ main{
 .icon{
     padding-bottom: 20px;
 }
+
+
+
+
