@@ -96,7 +96,12 @@ header{
     width: 900px;
     margin: auto;
 }
-
+.popular-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+}
 .popular-part h2{
     font-size: 25px;
     font-weight: 700;
@@ -105,12 +110,22 @@ header{
 }
 
 .section-title{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
+    margin-top: 10px;
+}
+.rating-title{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+.font-icon{
+    font-size: 12px;
+    margin-top: -10px;
 }
 
 .fas.icon{
-    color: #fb8200;
+    color: #fb8200;    
 }
 .rating{
     font-size: 16px;
@@ -122,5 +137,7 @@ header{
 }
 .rating-text{
     font-size: 18px;
+    font-weight: 700;
     color: #787885;
+    margin-top: 2px;
 }
