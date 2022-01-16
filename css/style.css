@@ -28,8 +28,11 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.logo-part{
+.logo-part img{
     padding-left: 20px;
+    width: 320px;
+    height: auto;
+    margin-top: -125px;
 }
 
 .menu-part a{
